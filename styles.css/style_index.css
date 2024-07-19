@@ -92,6 +92,16 @@ main {
 .imagem_cel {
     max-width: 100%;
 }
+.sec_institutes {
+    display: flex;
+    margin-bottom: 50px;
+}
+.div_institutes {
+    display: flex;
+}
+.img_inst {
+    margin: 20px;
+}
 .sec_balloon {
     display: flex;
     justify-content: center;
