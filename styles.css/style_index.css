@@ -99,8 +99,16 @@ main {
 .div_institutes {
     display: flex;
 }
-.img_inst {
+.img_inst_230 {
     margin: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.img_inst_180 {
+   display: none;
+}
+.img_inst_130 {
+    display: none;
 }
 .sec_balloon {
     display: flex;
@@ -448,6 +456,18 @@ footer div p a {
         margin-top: 30px;
         padding: 25px 50px;
     }
+    /*INSTITUTES */
+    .img_inst_230 {
+        display: none;
+    }
+    .img_inst_180 {
+       display: none;
+    }
+    .img_inst_130 {
+        margin: 5px;
+        max-width: 100%;
+        height: auto;
+    }
     /* DIV BALLOON */
     .div_balloon {
         font-size: 1.6em;
@@ -587,6 +607,19 @@ footer div p a {
     }
     .descricao, .imagem {
         width: 100%; 
+    }
+    /* INSTITUTES */
+    .img_inst_230 {
+        display: none;
+    }
+    .img_inst_180 {
+        display: block;
+        margin: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+    .img_inst_130 {
+        display: none;
     }
     /* DIV BALLOON */
     .div_balloon {
