@@ -560,6 +560,9 @@ footer div p a {
     .p_best_price {
         font-size: 5.5em;
     }
+    .sec_stamps {
+        margin-top: 50px;
+    }
     .img_stamps {
         width: 80%;
     }
