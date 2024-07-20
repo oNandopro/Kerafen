@@ -177,7 +177,7 @@ section .info_one {
 .frase {
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .p_a_buy {
     color: black;
