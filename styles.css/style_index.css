@@ -426,8 +426,10 @@ footer div p a {
     }  
     .imagem_cel {
         display: flex;
+        justify-content: center;
+        align-items: center;
         max-width: 100%;
-        margin-right: 60px;
+        background-color: #FFD701;
     }
     .imagem_buy {
         max-width: 100%;
