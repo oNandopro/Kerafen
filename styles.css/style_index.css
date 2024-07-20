@@ -107,9 +107,6 @@ main {
 .img_inst_180 {
    display: none;
 }
-.img_inst_130 {
-    display: none;
-}
 .sec_balloon {
     display: flex;
     justify-content: center;
@@ -207,6 +204,7 @@ section .info_one {
     align-items: center;
     justify-content: end;
     margin-bottom: 250px;
+    margin-right: -100px;
     max-width: 100%;
     transition: transform .5s ease;
 }
