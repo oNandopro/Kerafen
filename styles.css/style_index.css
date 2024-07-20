@@ -272,33 +272,25 @@ section .info_one {
     align-items: center;
     margin-top: 0px;
 }
-.p_customer {
-    border-radius: 10px;
-    font-weight: bold;
-    margin-top: 3px;
-}
 h3 {
     font-size: 2.5em;
     margin-top: 15px;
 }
-.bonus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.4em;
-    margin-top: 20px;
-}
 .imagem_buy {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
     margin-bottom: 25px;
-    
 }
 .price {
     display: flex;
     flex-direction: column; 
     align-items: center;  
+    margin-top: 10px;
     margin-bottom: 25px;
+}
+.color {
+    color: #342758;
 }
 .p_best_price {
     font-size: 6em;
@@ -306,6 +298,27 @@ h3 {
 }
 .p_bottle {
     font-size: 1em;
+}
+.free_bonus {
+    background-color: #1E745E;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.free_shipping {
+    background-color: #CC3911;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.guarantee {
+    background-color: #342758;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 .buy_now_button {
     display: flex;
@@ -315,10 +328,10 @@ h3 {
 .buy_now_button button{
     display: flex;
     padding: 15px 25px;
-    background-image: linear-gradient(#FFE456 50%,#FFD701 50%);
+    background-image: linear-gradient(#FFF84F 50%, #FDD003 50%);
     font-weight: 900;
-    color: black;
-    border: none;
+    color: #0A0B7D;
+    border: solid 1px #cec705;
     border-radius: 10px;
     cursor: pointer;
     font-size: 1.5em; 
@@ -545,7 +558,8 @@ footer div p a {
         margin: 15px;
     }
     h3 {
-        font-size: 1.2em;
+        font-size: 2em;
+        margin-top: 30px;
     }
     p.p_customer{
         width: auto;
@@ -728,10 +742,14 @@ footer div p a {
         margin-bottom: -25px;
     }
     .buy_now_button button {
-        font-size: 1em;
+        font-size: 1.5em;
+        padding: 20px 20px;
     }
     .p_best_price {
         font-size: 6em;
+    }
+    .card {
+        margin-top: 30px;
     }
     .container_footer {
         height: 50PX;
