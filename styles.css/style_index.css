@@ -751,6 +751,9 @@ footer div p a {
     .card {
         margin-top: 30px;
     }
+    .safe {
+        font-size: 1em;
+    }
     .container_footer {
         height: 50PX;
     }
